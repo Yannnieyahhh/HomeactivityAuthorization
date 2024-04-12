@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+<div class="container">
+  <h1>Authorization example</h1>
+  <p>Choose a button:</p>
+  <button id="unauthorized">UNAUTHORIZED</button>
+  <button id="authorized">AUTHORIZED</button>
+</div>
+<script>
+document.getElementById("unauthorized").addEventListener("click", function() {
+    window.location.href = "ind.html";
+  });
+  
+  document.getElementById("authorized").addEventListener("click", function() {
+    window.location.href = "home.html";
+  });
+</script>
+</body>
+</html>
+
